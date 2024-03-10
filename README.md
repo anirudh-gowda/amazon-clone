@@ -1,6 +1,8 @@
 # amazon-clone
-This is my first repository
-<br />
-I'm created a front page of amazon.com using only HTML and CSS.
-</br>
-It is also responsive to all devices.
+
+Built a tool to buy products online which is a clone of amazon.com by using JavaScript, Node JS, React, MongoDB, Express JS.
+This project is in a building stage.
+
+Try it here:- https://anirudh-gowda.github.io/amazon-clone/
+
+Any suggestion comment below
