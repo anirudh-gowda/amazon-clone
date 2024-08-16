@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+html,body{
+    height: 100%;
+}
+
 .navbr{                                 /* navbar */
     height: 60px;
     background-color: #070808;
@@ -93,7 +97,6 @@
     font-size: 0.9rem;
     border: none;
     padding-left: 8px;
-    background-color: #dddddd;
 }
 
 .search-icon{
@@ -731,6 +734,8 @@ ul p{
         padding-top: 8px;
     }
 }
+
+
 
 .alert{                                                  /* warning popup */
     background: #F2E8C6;
