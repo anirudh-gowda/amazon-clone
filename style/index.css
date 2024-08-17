@@ -97,6 +97,7 @@ html,body{
     font-size: 0.9rem;
     border: none;
     padding-left: 8px;
+    border-radius: 0%;
 }
 
 .search-icon{
