@@ -611,9 +611,13 @@ ul p{
         height: 140px;
     }
     
+    .main-section2{                         /* main-main img */
+        height: 140px;
+    }
+    
     .main-msg{
         height: 20px;
-        width: 96.5%;
+        width: 95%;
         font-size: 0.4rem;
         margin-bottom: 10px;
     }
