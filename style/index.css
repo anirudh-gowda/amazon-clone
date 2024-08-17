@@ -295,7 +295,7 @@ span{
 }
 
 .shop-section1-1{              /*  main-box section 1  */
-    background-image: linear-gradient(#0B6F6D, rgb(229, 229, 229));
+    background-image: linear-gradient(#047C56, rgb(229, 229, 229));
     display: flex;
     justify-content: space-evenly;
 }
@@ -628,6 +628,13 @@ ul p{
     }
 
     .shop-section1{                   /* box section 1 */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+        padding: 0px 8px 0px 8px;
+    }
+
+    .shop-section1-1{                   /* main box section 1 */
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 8px;
