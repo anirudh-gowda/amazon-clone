@@ -76,7 +76,7 @@ html,body{
 .nav-search{
     height: 40px;
     width: 900px;
-    border-radius: 5px solid white;
+    border-radius: 5px;
     display: flex;
     justify-content: space-evenly;
     margin: 0px 15px 0px 15px;
@@ -97,6 +97,7 @@ html,body{
     font-size: 0.9rem;
     border: none;
     padding-left: 8px;
+    border-radius: 0px;
 }
 
 .search-icon{
