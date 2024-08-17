@@ -76,7 +76,7 @@ html,body{
 .nav-search{
     height: 40px;
     width: 900px;
-    border-radius: 5px;
+    border-radius: 5px solid white;
     display: flex;
     justify-content: space-evenly;
     margin: 0px 15px 0px 15px;
