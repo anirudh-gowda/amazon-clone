@@ -97,7 +97,6 @@ html,body{
     font-size: 0.9rem;
     border: none;
     padding-left: 8px;
-    border-radius: 0px;
 }
 
 .search-icon{
@@ -261,6 +260,15 @@ span{
     align-items: flex-end;
 }
 
+.main-section2{                        /*  main-main img */ 
+    background-image: url(../images/main_img2.jpg);
+    height: 310px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .main-msg{
     height: 40px;
     width: 96.5%;
@@ -280,7 +288,13 @@ span{
 
 
 .shop-section1{                   /* box section 1 */
-    background-image: linear-gradient(#05433a, rgb(229, 229, 229));
+    background-image: linear-gradient(#4C01B4, rgb(229, 229, 229));
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shop-section1-1{              /*  main-box section 1  */
+    background-image: linear-gradient(#0B6F6D, rgb(229, 229, 229));
     display: flex;
     justify-content: space-evenly;
 }
