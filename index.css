@@ -27,7 +27,7 @@ html,body{
 }
 
 .logo{
-    background-image: url("../images/amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     height: 50px;
     width: 100%;
     background-size: cover;
@@ -253,7 +253,7 @@ span{
 
 
 .main-section{                         /* main img */
-    background-image: url(../images/main_img.jpg);
+    background-image: url(images/main_img.jpg);
     height: 310px;
     background-size: cover;
     display: flex;
@@ -262,7 +262,7 @@ span{
 }
 
 .main-section2{                        /*  main-main img */ 
-    background-image: url(../images/main_img2.jpg);
+    background-image: url(images/main_img2.jpg);
     height: 310px;
     background-size: cover;
     display: flex;
@@ -388,7 +388,7 @@ ul p{
 }
 
 .panal3_logo{
-    background-image: url("../images/amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     height: 50px;
     width: 120px;
     background-size: cover;

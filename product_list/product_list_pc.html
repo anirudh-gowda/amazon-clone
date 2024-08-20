@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="images/amazon-icon.png">
+    <link rel="shortcut icon" href="../images/amazon-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon.com</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="product_list.css">
 </head>
 <body>
     <header>
@@ -52,8 +51,8 @@
                 </div>
             </div>
 
-            <div class="nav-signin border"onclick="location.href='signup&login/login-email.html';">    <!--signin-->
-                <span>Hello, sign in</span>
+            <div class="nav-signin border" onclick="location.href='../main.html';">    <!--signin-->
+                <span>Hello, guest</span>
                 <p class="signin-second">Account & Lists</p>
             </div>
 
@@ -63,7 +62,7 @@
             </div>
 
             <div class="nav-cart border">     <!--cart-->
-                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                     <P>Cart</P>
             </div>
         </div>
@@ -82,23 +81,89 @@
                 <p>Gift Cards</p>
                 <p>Sell</p>
             </div>
-
-            <div class="panal-deals border">   <!--deals-->
-                <p>Shop deals in Electronic</p>
-            </div>
         </div>
     </header>
 
 
 
-    <div class="main-section">              <!--main img-->
-        <div class="main-msg">
-            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+    <div class="main">              <!--main-->
+        <div class="main-filter">
+            <p class="filter">Filters</p>
+            <img src="..\images\stars5.png">
+            <p>Price <i class="arrow-down"></i></p>
+            <p>Brands <i class="arrow-down"></i></p>
+            <p>Deals & Discounts <i class="arrow-down"></i></p>
+            <p>Condition <i class="arrow-down"></i></p>
+            <p>Sort by: Featured <i class="arrow-down"></i></p>
+        </div>
+        <div class="product-list">
+            <h3>Results</h3>
+            <p class="pl-p">Check each product page for other buying options.</p>
+            <div class="pl-box1 plbox">
+                <div class="pl-img" style="background-image: url('../images/plpc1.png');">
+                </div>
+                <div class="pl-contant">
+                    <p class="pd1">Skytech Gaming Nebula Gaming PC Desktop, Intel Core i5 13400F 2.5 GHz, 
+                        NVIDIA RTX 4060, 1TB NVME SSD, 16GB DDR4 RAM 3200, 600W Gold PSU, 11AC Wi-Fi, Black</p>
+                    <p class="pd2">4.5 stares &#124; <a href="#">255 ratings</a></p>
+                    <p class="pd3"><sup>$</sup>849<sup>00</sup></p>
+                    <p class="pd4">$89.50 delivery</p>
+                    <p class="pd5"><button>Add to cart</button></p>
+                </div>
+            </div>
+            <div class="pl-box2 plbox">
+                <div class="pl-img" style="background-image: url('../images/plpc2.png');">
+                </div>
+                <div class="pl-contant">
+                    <p class="pd1">Skytech Gaming Nebula Gaming PC Desktop, Intel Core i5 13400F 2.5 GHz, 
+                        NVIDIA RTX 4060, 1TB NVME SSD, 16GB DDR4 RAM 3200, 600W Gold PSU, 11AC Wi-Fi, Black</p>
+                    <p class="pd2">4.5 stares &#124; <a href="#">255 ratings</a></p>
+                    <p class="pd3"><sup>$</sup>1,049<sup>00</sup></p>
+                    <p class="pd4">$89.50 delivery</p>
+                    <p class="pd5"><button>Add to cart</button></p>
+                </div>
+            </div>
+            <div class="pl-box3 plbox">
+                <div class="pl-img" style="background-image: url('../images/plpc3.png');">
+                </div>
+                <div class="pl-contant">
+                    <p class="pd1">Skytech Gaming Nebula Gaming PC Desktop, Intel Core i5 13400F 2.5 GHz, 
+                        NVIDIA RTX 4060, 1TB NVME SSD, 16GB DDR4 RAM 3200, 600W Gold PSU, 11AC Wi-Fi, Black</p>
+                    <p class="pd2">4.5 stares &#124; <a href="#">255 ratings</a></p>
+                    <p class="pd3"><sup>$</sup>999<sup>00</sup></p>
+                    <p class="pd4">$89.50 delivery</p>
+                    <p class="pd5"><button>Add to cart</button></p>
+                </div>
+            </div>
+            <div class="pl-box4 plbox">
+                <div class="pl-img" style="background-image: url('../images/plpc4.png');">
+                </div>
+                <div class="pl-contant">
+                    <p class="pd1">Skytech Gaming Nebula Gaming PC Desktop, Intel Core i5 13400F 2.5 GHz, 
+                        NVIDIA RTX 4060, 1TB NVME SSD, 16GB DDR4 RAM 3200, 600W Gold PSU, 11AC Wi-Fi, Black</p>
+                    <p class="pd2">4.5 stares &#124; <a href="#">255 ratings</a></p>
+                    <p class="pd3"><sup>$</sup>849<sup>00</sup></p>
+                    <p class="pd4">$89.50 delivery</p>
+                    <p class="pd5"><button>Add to cart</button></p>
+                </div>
+            </div>
+            <div class="pl-box5 plbox">
+                <div class="pl-img" style="background-image: url('../images/plpc2.png');">
+                </div>
+                <div class="pl-contant">
+                    <p class="pd1">Skytech Gaming Nebula Gaming PC Desktop, Intel Core i5 13400F 2.5 GHz, 
+                        NVIDIA RTX 4060, 1TB NVME SSD, 16GB DDR4 RAM 3200, 600W Gold PSU, 11AC Wi-Fi, Black</p>
+                    <p class="pd2">4.5 stares &#124; <a href="#">255 ratings</a></p>
+                    <p class="pd3"><sup>$</sup>1,049<sup>00</sup></p>
+                    <p class="pd4">$89.50 delivery</p>
+                    <p class="pd5"><button>Add to cart</button></p>
+                </div>
+            </div>
         </div>
     </div>
 
 
-    <div class="shop-section1">          <!--box section 1-->
+    <!-- <div class="shop-section1">          box section 1
         <div class="box1 box">
             <div class="box_content">
                 <h3>Deals in PCs</h3>
@@ -130,7 +195,7 @@
     </div>
 
 
-    <div class="shop-section2">          <!--box section 2-->
+    <div class="shop-section2">          box section 2
         <div class="box5 box">
             <div class="box_content">
                 <h3>Deals on shoes</h3>
@@ -159,15 +224,7 @@
                 <p>Shop personal computers</p>
             </div>
         </div>
-    </div>
-                                        
-    <div class="alert hide">              <!-- warning popup -->
-        <span class="fas fa-exclamation-circle"></span>
-        <span class="msg">Error: Signup/Login</span>
-        <div class="close-btn">
-            <span class="fas fa-times"></span>
-        </div>
-    </div>
+    </div> -->
 
 
     <footer>                                <!-- footer -->
@@ -233,22 +290,6 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        $('.box').click(function(){
-          $('.alert').addClass("show");
-          $('.alert').removeClass("hide");
-          $('.alert').addClass("showAlert");
-          setTimeout(function(){
-            $('.alert').removeClass("show");
-            $('.alert').addClass("hide");
-          },5000);
-        });
-        $('.close-btn').click(function(){
-          $('.alert').removeClass("show");
-          $('.alert').addClass("hide");
-        });
-     </script>
      
 </body>
 </html>
