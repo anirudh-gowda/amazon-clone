@@ -335,6 +335,24 @@ span{
     padding-bottom: 20px;
 }
 
+.slider-wrapper .image-list {     /* slide */
+    max-width: 1480px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    font-size: 0;
+    margin: 0px 25px 20px;
+    overflow-x: auto;
+  }
+
+.slider-wrapper .image-list .image-item {
+    width: 260px;
+    height: 280px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+
 .footer_panal1{                   /* footer */
     background-color: #37475a;
     color: white;
@@ -678,6 +696,18 @@ ul p{
         gap: 8px;
         padding: 0px 8px 0px 8px;
     }
+
+    .slider-wrapper .image-list {   /* slide */
+        gap: 10px;
+        margin-bottom: 15px;
+        scroll-snap-type: x mandatory;
+        padding-left: 2px;
+      }
+    
+    .slider-wrapper .image-list .image-item {
+        width: 110px;
+        height: 120px;
+      }
 
     .footer_panal1{                   /* footer */
         height: 40px;
