@@ -336,7 +336,7 @@ span{
 }
 
 .slider-wrapper .image-list {     /* slide */
-    max-width: 1480px;
+    max-width: 2480px;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 20px;
